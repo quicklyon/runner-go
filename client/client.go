@@ -31,6 +31,8 @@ type (
 		Variant string            `json:"variant"`
 		Kernel  string            `json:"kernel"`
 		Labels  map[string]string `json:"labels,omitempty"`
+
+		Metadata  map[string]string `json:"metadata,omitempty"`
 	}
 
 	// File represents a file from the version control
